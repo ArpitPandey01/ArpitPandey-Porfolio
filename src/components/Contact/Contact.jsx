@@ -2,9 +2,6 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import dotenv from "dotenv";
-
-dotenv.config();
 
 const Contact = () => {
   const form = useRef();
@@ -12,15 +9,14 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
-        // Email js using for this service,template,key
-        process.env.GMAIL_SERVICE,
-        process.env.GMAIL_TEMPLETE_ID,
+        import.meta.env.VITE_GMAIL_SERVICE,
+        import.meta.env.VITE_GMAIL_TEMPLETE_ID,
         form.current,
-        process.env.GMAIL_KEY
+        import.meta.env.VITE_GMAIL_KEY
       )
+
       .then(
         () => {
           setIsSent(true);
