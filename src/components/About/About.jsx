@@ -37,7 +37,9 @@ const About = () => {
           </h3>
 
           <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-            Welcome to my portfolio. I’m a Computer Science Engineering student and  MERN stack developer, focused on creating clean, efficient, and scalable web solutions. Here, you’ll find my work, and development journey
+            I’m a software developer, and this is my portfolio website. Here,
+            you’ll learn about my journey as a developer and explore the
+            projects I’ve worked on.
           </p>
 
           <a
