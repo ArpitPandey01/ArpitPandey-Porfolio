@@ -99,8 +99,7 @@ Visitor analytics
 More animations
 Multi-language support
 🤝 Connect With Me
-💼 LinkedIn: https://linkedin.com/in/your-profile
-💻 GitHub: https://github.com/your-username
+
 📧 Email: arpitpandey1505@gmail.com
 
 ⭐ Support
